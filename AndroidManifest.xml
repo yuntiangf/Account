@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cn.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/aa"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cn.activity.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cn.activity.MainActivity"
+            android:label="@string/app_name" ></activity>
+        <activity
+            android:name="com.cn.activity.AddOutaccount"
+            android:label="@string/addoutaccount" ></activity>
+        <activity
+            android:name="com.cn.activity.AddInaccount"
+            android:label="@string/addinaccount" ></activity>
+        <activity
+            android:name="com.cn.activity.Outaccountinfo"
+            android:label="@string/outaccountinfo" ></activity>
+        <activity
+            android:name="com.cn.activity.Inaccountinfo"
+            android:label="@string/inaccountinfo" ></activity>
+        <activity
+            android:name="com.cn.activity.Showinfo"
+            android:label="@string/showinfo" ></activity>
+        <activity
+            android:name="com.cn.activity.Sysset"
+            android:label="@string/sysset" ></activity>
+        <activity
+            android:name="com.cn.activity.Accountflag"
+            android:label="@string/accountflag" ></activity>
+        <activity
+            android:name="com.cn.activity.FlagManage"
+            android:label="@string/flagmanage" ></activity>
+        <activity
+            android:name="com.cn.activity.InfoManage"
+            android:label="@string/infomanage" ></activity>
+    </application>
+</manifest>
